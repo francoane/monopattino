@@ -1,0 +1,124 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-image: url(https://ridedott.com/wp-content/uploads/2022/07/e-scooters-in-europe-the-new-everyday-way-to-travel-0-scaled.jpg); 
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Main container */
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+/* Header */
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: lime;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.subtext {
+    font-size: 1.2em;
+    color: lime;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.buttons {
+    margin-bottom: 20px;
+    background-color:greenyellow;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.buttons button {
+    
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: darkgreen;
+}
+
+/* Scooter info boxes */
+.scooter {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.scooter .name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.scooter .location {
+    font-size: 0.9em;
+    color: #ddd;
+}
+
+.scooter .charge-status {
+    height: 15px;
+    border-radius: 5px;
+    margin-top: 8px;
+    background-color: gray;
+    overflow: hidden;
+}
+
+.charge-bar {
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* Charge level colors */
+.charge-75 {
+    width: 75%;
+    background-color: limegreen;
+}
+
+.charge-50 {
+    width: 50%;
+    background-color: orange;
+}
+
+.charge-25 {
+    width: 25%;
+    background-color: red;
+}
+.scooter{
+    text-align:center;
+}
